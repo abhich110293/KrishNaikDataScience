@@ -1,0 +1,23 @@
+Click on the terminal tab to open terminal
+It will by default open in powershell mode
+Use dropdown and change to cmd and delete the powershell
+Idea is to use cmd and not powershell
+Use terminal to navigate through the folders
+uv python install 3.12, command to install python with version 3.12
+You can install many versions together as well
+To choose one verson to work with currently, you can pin the version, uv python pin 3.12
+To run a particular python version in terminal, uv run pythonexi
+To come ot of python, use exit() command of python
+To create a venv, navigate to te folder first where you want venv to be created
+Use uv venv to create venv in the current folder, the version you would have pinned will go to this venv
+Go inside the .venv folder -> pyvenv.cfg to see the location
+Your python notebook might throw installation error, fixed that sing the command
+    & "c:/Users/abhis/AppData/Roaming/uv/python/cpython-3.12.12-windows-x86_64-none/python.exe" -m pip install ipykernel -U --user --force-reinstall --break-system-packages
+    where the first part- "& "c:/Users/abhis/AppData/Roaming/uv/python/cpython-3.12.12-windows-x86_64-none/python.exe" is the location where your python is in venv
+To run a python file from terminal, go first to the folder having python file, then
+    uv run python <pythonFile.py>
+You can activate the Scripts in the venv to avoid writing "uv run" before "python <pythonFile.py>" by
+activating the Scripts in the venv. To do that, copy full path of Scripts inside the venv and run in cmd with "\activate" added at the end of the full path
+    D:\KrishNaikDataScience\LiveProjects\level_1\.venv\Scripts\activate
+To deactivate the activated env, in cmd
+    D:\KrishNaikDataScience\LiveProjects\level_1\.venv\Scripts\deactivate and run
