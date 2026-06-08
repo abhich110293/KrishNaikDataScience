@@ -21,3 +21,13 @@ activating the Scripts in the venv. To do that, copy full path of Scripts inside
     D:\KrishNaikDataScience\LiveProjects\level_1\.venv\Scripts\activate
 To deactivate the activated env, in cmd
     D:\KrishNaikDataScience\LiveProjects\level_1\.venv\Scripts\deactivate and run
+Whatever venv is activated you will see that in the small parenthesis in the left even though you
+are in some other folder
+  e.g. (level_1) D:\KrishNaikDataScience\LiveProjects\Level4_featureEngg> -- you are in folder Level4_featureEngg but still the venv activated is of level_1
+  (level_1) D:\KrishNaikDataScience\LiveProjects\Level4_featureEngg>D:\KrishNaikDataScience\LiveProjects\Level4_featureEngg\.venv\Scripts\activate
+
+  once you actiavte using the above command, it will change to:
+        (Level4_featureEngg) D:\KrishNaikDataScience\LiveProjects\Level4_featureEngg>
+
+To select a ipynb kernel, go to selectAnotherKernel -> Python Environments -> Create python env -> Enter Interpreter path and then choose the python exe file in your venv
+If python file s missing, first pin that by going to yur venev from cmd
