@@ -31,3 +31,9 @@ are in some other folder
 
 To select a ipynb kernel, go to selectAnotherKernel -> Python Environments -> Create python env -> Enter Interpreter path and then choose the python exe file in your venv
 If python file s missing, first pin that by going to yur venev from cmd
+
+
+Installing a package in your venv
+    -- install pip also in your venv otherwise it will start puling global pip and packages will be installed in global python location
+    -- uv pip install pip
+    -- Then use this in cmd- python -m pip install <package name>

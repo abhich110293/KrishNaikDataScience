@@ -1,0 +1,7 @@
+# Ignore any XML files starting with "copilot"
+copilot*.xml
+
+# Ignore PDF files
+*.pdf
+# Ignore zip files
+*.zip
